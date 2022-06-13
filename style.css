@@ -1,0 +1,110 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+body{
+background-color: #3b3b3b;
+}
+.phone{
+    width: 260px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #c6c7cb;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 2px #c5c5c5;
+    box-shadow: 0 20px 5px 0 rgba(0, 0, 0, 0.25);
+    margin: 5% 40% 0 40%;
+}
+.camera{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: black;
+    justify-self: center;
+}
+.phone_topBar{
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+}
+.small_circle{
+    width: 6px;
+    height: 6px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 1px #c5c5c5;
+    margin-right: 10px;
+}
+.speaker{
+    width: 50px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: black;
+}
+.screen{
+    background-color: #222122;
+    width: 248px;
+    height: 415px;
+    border-radius: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#display{
+    font-size: 34px;
+    max-width: 220px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    text-align: right;
+    margin-right: 10px;
+    color: white;
+}
+#display::-webkit-scrollbar{
+    height: 5px;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+}
+#display::-webkit-scrollbar-thumb{
+    background-color: #c5c6ca;
+    border-radius:5px;
+    box-shadow: inset 0 0 5px grey;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+.home_button{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: solid 2px #3b3b3b;
+    cursor: pointer;
+}
+.home_button:hover{
+    background-color: #9a9b9f;
+}
+.button{
+    width:62px;
+    height: 62px;
+    border: 1px solid #9a9b9f;
+    color: #6f7072;
+    font-size: 24px;
+    cursor: pointer;
+}
+#orange{
+    background-color: #fa8e12;
+    color: white;
+}
+#gray{
+    background-color: #c6c7cb;
+}
+#zero{  
+    width: 124px;
+    text-align: left;
+    padding-left: 24px;
+}
